@@ -1,0 +1,25 @@
+.fret-marker {
+	position: absolute;
+	right: -15px;
+	top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid grey;
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	z-index: 100;
+	font-size: 12px;
+
+	&.is-root {
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	&:hover {
+		border-color: steelblue;
+		color: steelblue
+	}
+}

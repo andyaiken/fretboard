@@ -1,0 +1,13 @@
+.control-row {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+
+	.control-row-label {
+		flex: 0 0 120px;
+	}
+
+	.control-row-content {
+		flex: 1 1 0;
+	}
+}

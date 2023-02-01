@@ -1,0 +1,38 @@
+.instrument-string {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+
+	.tuning {
+		height: 30px;
+		flex: 0 0 30px;
+		margin-right: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 2px solid grey;
+		border-radius: 15px;
+		background-color: white;
+	}
+
+	.string {
+		flex: 1 1 auto;
+		height: 2px;
+		background-color: grey;
+		display: flex;
+
+		.fret {
+			flex: 1 1 0;
+			position: relative;
+			margin-top: -25px;
+			height: 50px;
+			border-left: 2px solid grey;
+
+			&.fret-0 {
+				flex: 0 0 30px;
+				border-left: none;
+				background-color: lightgrey;
+			}
+		}
+	}
+}
