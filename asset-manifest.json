@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fretboard/static/css/main.23d81972.css",
+    "main.js": "/fretboard/static/js/main.c4fba49a.js",
+    "index.html": "/fretboard/index.html",
+    "main.23d81972.css.map": "/fretboard/static/css/main.23d81972.css.map",
+    "main.c4fba49a.js.map": "/fretboard/static/js/main.c4fba49a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23d81972.css",
+    "static/js/main.c4fba49a.js"
+  ]
+}
