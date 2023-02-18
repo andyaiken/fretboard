@@ -1,26 +1,29 @@
 {
 	"name": "fretboard",
 	"version": "1.0.0",
+	"homepage": "https://andyaiken.github.io/fretboard/",
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@types/node": "^18.11.18",
-		"@types/react": "^18.0.27",
-		"@types/react-dom": "^18.0.10",
-		"@typescript-eslint/eslint-plugin": "^5.50.0",
-		"@typescript-eslint/parser": "^5.50.0",
-		"eslint": "^8.33.0",
+		"@types/node": "^18.14.0",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.52.0",
+		"@typescript-eslint/parser": "^5.52.0",
+		"eslint": "^8.34.0",
+		"gh-pages": "^5.0.0",
 		"react-scripts": "5.0.1",
-		"sass": "^1.58.0",
+		"sass": "^1.58.3",
 		"typescript": "^4.9.5"
 	},
 	"scripts": {
 		"depend": "npx npm-check-updates --interactive --format group",
 		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "react-scripts build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
